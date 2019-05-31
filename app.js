@@ -7,6 +7,11 @@ var headersDocument = ["Temperatura", "Humedad", "Presion atmosferica"];
 var data = [[1,2,3],[4,5,6],[7,2,8],[10,2,13],[1,12,3],[15,22,31]];
 var rowCounter = 2;
 
+function getExcelOneWorkBook(headers, data, workbookName)
+{
+
+}
+
 var workbook = new Excel.Workbook();
 workbook.creator = 'Me';
 workbook.lastModifiedBy = 'Her';
